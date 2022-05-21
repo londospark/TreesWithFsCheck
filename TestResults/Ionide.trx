@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="22ceb7bb-6f98-40f6-a8b8-0ac65fd740e7" name="@mba 2022-05-20 16:31:52" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-05-20T16:31:52.1279410+01:00" queuing="2022-05-20T16:31:52.1279410+01:00" start="2022-05-20T16:31:49.7866240+01:00" finish="2022-05-20T16:31:52.1698530+01:00" />
+  <TestSettings name="default" id="d59521cc-0f6c-4fe7-9bd1-9095b5958b33">
+    <Deployment runDeploymentRoot="_mba_2022-05-20_16_31_52" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="22c8320d-f622-474b-aab7-b6e71a550e6b" testId="a5f93d12-2a92-b414-efdb-a266b19a4e69" testName="Tests.Tree mapping works" computerName="mba" duration="00:00:00.0008670" startTime="2022-05-20T16:31:51.8550960+01:00" endTime="2022-05-20T16:31:51.8550960+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22c8320d-f622-474b-aab7-b6e71a550e6b" />
+    <UnitTestResult executionId="e33cfd85-7cc1-4bde-b203-daaa4497e985" testId="c9cb0209-c560-72a3-2d98-b9b6f5476cbe" testName="Tests.Identity mapping works on trees" computerName="mba" duration="00:00:00.0079080" startTime="2022-05-20T16:31:51.8542270+01:00" endTime="2022-05-20T16:31:51.8542290+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e33cfd85-7cc1-4bde-b203-daaa4497e985" />
+    <UnitTestResult executionId="1aee0552-59f1-4fbe-abb8-3a2ea789c657" testId="60301eb4-2a74-c4b1-6ca7-f189aa94772b" testName="Tests.Trees can consist of just a leaf node" computerName="mba" duration="00:00:00.0048178" startTime="2022-05-20T16:31:51.8474640+01:00" endTime="2022-05-20T16:31:51.8474790+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aee0552-59f1-4fbe-abb8-3a2ea789c657" />
+    <UnitTestResult executionId="4bcf6255-6661-4c3a-b51b-508e220fa8e3" testId="b25bfc8e-8a39-1447-4114-2808831c5ae4" testName="Tests.Trees can consist of branches and leaves" computerName="mba" duration="00:00:00.0000402" startTime="2022-05-20T16:31:51.8551880+01:00" endTime="2022-05-20T16:31:51.8551880+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bcf6255-6661-4c3a-b51b-508e220fa8e3" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Tests.Identity mapping works on trees" storage="/users/gareth/developer/chapternine/bin/debug/net6.0/chapternine.dll" id="c9cb0209-c560-72a3-2d98-b9b6f5476cbe">
+      <Execution id="e33cfd85-7cc1-4bde-b203-daaa4497e985" />
+      <TestMethod codeBase="/Users/gareth/Developer/ChapterNine/bin/Debug/net6.0/ChapterNine.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests" name="Identity mapping works on trees" />
+    </UnitTest>
+    <UnitTest name="Tests.Trees can consist of just a leaf node" storage="/users/gareth/developer/chapternine/bin/debug/net6.0/chapternine.dll" id="60301eb4-2a74-c4b1-6ca7-f189aa94772b">
+      <Execution id="1aee0552-59f1-4fbe-abb8-3a2ea789c657" />
+      <TestMethod codeBase="/Users/gareth/Developer/ChapterNine/bin/Debug/net6.0/ChapterNine.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests" name="Trees can consist of just a leaf node" />
+    </UnitTest>
+    <UnitTest name="Tests.Trees can consist of branches and leaves" storage="/users/gareth/developer/chapternine/bin/debug/net6.0/chapternine.dll" id="b25bfc8e-8a39-1447-4114-2808831c5ae4">
+      <Execution id="4bcf6255-6661-4c3a-b51b-508e220fa8e3" />
+      <TestMethod codeBase="/Users/gareth/Developer/ChapterNine/bin/Debug/net6.0/ChapterNine.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests" name="Trees can consist of branches and leaves" />
+    </UnitTest>
+    <UnitTest name="Tests.Tree mapping works" storage="/users/gareth/developer/chapternine/bin/debug/net6.0/chapternine.dll" id="a5f93d12-2a92-b414-efdb-a266b19a4e69">
+      <Execution id="22c8320d-f622-474b-aab7-b6e71a550e6b" />
+      <TestMethod codeBase="/Users/gareth/Developer/ChapterNine/bin/Debug/net6.0/ChapterNine.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests" name="Tree mapping works" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="a5f93d12-2a92-b414-efdb-a266b19a4e69" executionId="22c8320d-f622-474b-aab7-b6e71a550e6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c9cb0209-c560-72a3-2d98-b9b6f5476cbe" executionId="e33cfd85-7cc1-4bde-b203-daaa4497e985" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="60301eb4-2a74-c4b1-6ca7-f189aa94772b" executionId="1aee0552-59f1-4fbe-abb8-3a2ea789c657" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b25bfc8e-8a39-1447-4114-2808831c5ae4" executionId="4bcf6255-6661-4c3a-b51b-508e220fa8e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 6.0.3)
+[xUnit.net 00:00:00.46]   Discovering: ChapterNine
+[xUnit.net 00:00:00.51]   Discovered:  ChapterNine
+[xUnit.net 00:00:00.52]   Starting:    ChapterNine
+[xUnit.net 00:00:00.61]   Finished:    ChapterNine
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
